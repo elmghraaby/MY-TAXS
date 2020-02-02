@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2020, Created By Ahmed Alaa Elmaghraby.
+  -->
+
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/years_gv_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_rounded_corner"
+    android:columnWidth="70dp"
+    android:gravity="center"
+    android:horizontalSpacing="5dp"
+    android:numColumns="auto_fit"
+    android:padding="10dp"
+    android:stretchMode="columnWidth"
+    android:verticalSpacing="10dp" />

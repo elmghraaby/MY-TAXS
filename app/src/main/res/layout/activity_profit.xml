@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020, Created By Ahmed Alaa Elmaghraby.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_white_1000"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    tools:context="com.elmaghraby.android.ProfitActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/md_teal_300" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@color/md_teal_600">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="top|center"
+            android:text="ضريبة الأرباح التجارية"
+            android:textSize="@dimen/title_text_size" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/md_teal_300" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/individual_tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/md_teal_600"
+            android:gravity="center"
+            android:text="أفراد"
+            android:textColor="@color/md_white_1000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/company_tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/md_teal_600"
+            android:gravity="center"
+            android:text="مؤسسات"
+            android:textColor="@color/md_white_1000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container_fl_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+</LinearLayout>
+

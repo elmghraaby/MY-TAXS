@@ -1,0 +1,11 @@
+<!--
+  ~ Copyright (c) 2020, Created By Ahmed Alaa Elmaghraby.
+  -->
+
+<resources>
+    <string name="app_name">MY TAX</string>
+    <string name="tax_v_1_0_by_ahmed_alaa">TAX V 1.0 \n By Ahmed Alaa</string>
+    <string name="my_link"><u><a href="https://www.linkedin.com/in/elmghraaby/">By Ahmed Alaa</a></u></string>
+
+
+</resources>

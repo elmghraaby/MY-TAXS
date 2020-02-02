@@ -1,0 +1,6 @@
+include ':app', ':datepicker'
+/*
+ * Copyright (c) 2020, Created By Ahmed Alaa Elmaghraby.
+ */
+
+rootProject.name='TAXS'
